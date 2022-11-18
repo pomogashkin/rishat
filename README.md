@@ -1,4 +1,4 @@
-# rishat_test_project | Тестовое задание
+# rishat| Тестовое задание
 
 Ссылка на тестовый сайт - http://daniksss.pythonanywhere.com, где можно наглядно быстро потыкать функионал.
 
@@ -10,11 +10,11 @@
 Клонировать репозиторий и перейти в него в командной строке:
 
 ```
-git clone git@github.com:pomogashkin/rishat_test_project.git
+git clone git@github.com:pomogashkin/rishat.git
 ```
 
 ```
-cd rishat_test_project
+cd rishat
 ```
 
 Cоздать и активировать виртуальное окружение:
