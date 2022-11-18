@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="container py-5">
+    {% for item in items %}
+        <article>
+          <div class="col d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">{{ item.name }}</h5>
+                  <p class="card-text">{{ item.description }}</p>
+                  <p class="card-text">${{ item.get_price_in_dollars }}</p>
+                  <a href="{% url 'item' item.pk %}" class="btn btn-primary">Перейти к товару</a>
+                </div>
+            </div>
+          </div>
+          </br>
+        </article>
+    {% endfor %}
+    </div>
+{% endblock %}
